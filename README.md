@@ -1,1 +1,6 @@
-# Geoexact2DBeam
+#  Geometrically Exact 2D Beam Theories: Finite Element Formulations and Comparative Analysis
+
+Nonlinear theories for beams were developed in the last three decades. They all can be applied for finite element discretization. This paper is based on the formulation of nonlinear rod and beam theories, which have, as the only restriction, the classical assumption of “plane cross sections remain plane.” No other approximations are made; hence, the strains, deflections, and rotations can be finite, and these theories are called geometrically exact. The development of these beam theories goes back to the work by Reissner (1972). A generalization for the three-dimensional case can be found in Simo (1985). Based on this theoretical background, several authors developed associated finite element formulations. Therefore, different beam theories are considered for the two-dimensional case. Additionally, associated numerical formulations are derived for finite element implementations. The theories are then compared by means of examples that depict the limits in the application of different approaches.
+
+
+Beams are three-dimensional solids. One-dimensional mathematical models of plane beams are constructed based on beam theories. All such theories involve some form of approximation that describes the behavior of the cross sections in terms of quantities evaluated on the longitudinal axis. More precisely, the element kinematics of a plane beam is completely defined by the two models described below if the following functions are given:
