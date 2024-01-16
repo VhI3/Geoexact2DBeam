@@ -1,5 +1,6 @@
 #  Geometrically Exact 2D Beam Theories: Finite Element Formulations and Comparative Analysis
 This repository contains the results of my master's project, completed at Kassel University in 2017. My supervisors were Prof. Kuhl and Dr. Tobias Gleim. Recently, I have revised the code for clarity and added comments, and I believe it is now worthy of publication. The code is written in an object-oriented style using Matlab, with the main class being twoD_Beam.
+
 Over the past three decades, nonlinear theories for beams have been developed, all of which are applicable to finite element discretization. Three distinct approaches are identifiable:
 
 1. The first approach, predicated on the assumption of small strains, concerns a frame undergoing finite rigid rotations. It formulates strains and stresses relative to these rotations, known as the co-rotational formulation. This approach, allowing for large deflections and rotations, mandates that strains remain small. Finite element schemes based on this formulation are evident in works by Oran and Kassimali (1976), Wempner (1969), Rankin and Brogan (1984), Lumpe (1982), and Crisfield (1991, 1997).
